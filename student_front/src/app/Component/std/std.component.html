@@ -1,0 +1,37 @@
+
+        <form [formGroup]="form" >
+            <h1>Registaration form</h1>
+            <div class="form-group">
+              <label for="name">Student Name :</label>
+              <input type="text" formControlName="studentName" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="department">Department:</label>
+              <input type="department" id="department" formControlName="department" placeholder="Enter your department" required>
+            </div>
+            <div class="form-group">
+                <label for="department">Address:</label>
+                <input type="department"  formControlName="address" placeholder="Enter your department" required>
+              </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" formControlName="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" formControlName="password" placeholder="Enter your password" required>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="btn btn-primary" (click)="submit()" >Register</div>
+                </div>
+                <div class="col">
+                    <div class="btn btn-primary" (click) ="submit()">Cancel </div>
+                </div>
+            </div>
+
+
+    
+            
+            
+   
